@@ -1,76 +1,100 @@
 # tsk - Terminal-style Task Manager
 
-黒背景×緑文字のハッカー風UIで素早くタスク管理できる、デスクトップ常駐型ターミナル風ToDoツール
+黒背景×緑文字のハッカー風UIで、キーボードだけで高速にタスク管理できるツール
 
-<img width="402" height="420" alt="main" src="https://github.com/user-attachments/assets/88360c4d-2cc3-4482-89e9-d446fd7b10be" />
+👉 **3秒で登録、1秒で完了**
+
+---
+
+## 🎬 デモ
+
+<img width="581" height="534" alt="demo" src="https://github.com/user-attachments/assets/66956c5d-09c1-4c50-99c8-431733b8ff32" />
 
 
-## ■ v1.1 新機能
+---
 
-### 🧩 View機能
+## 🚀 ダウンロード
 
-タスクを用途ごとに分けて管理できるようになりました。
+👉 https://github.com/moritan777/tsk-releases/releases/latest
 
-View1：一般
-View2：見積
-View3：開発
+※ zipを展開して `tsk.exe` を実行するだけ
 
-### ■ 操作
+---
 
-V1〜V9でView切替
-
-/config → 10
-
-* 番号：名称変更
-* 未使用番号：追加
-* d番号：削除
-
-### ■ 削除仕様
-
-* タスクは削除されない
-* View1へ移動
-
-## 特徴
+## ■ 特徴
 
 - 🖥 ターミナル風UI（黒背景×緑文字）
-- ⌨ キーボード中心の素早い操作
+- ⌨ キーボード中心の高速操作
 - 📂 4カテゴリ自動管理（TODAY / THIS WEEK / NEXT WEEK / SOMEDAY）
-- 📅 日付の自然入力（「金 レビュー」「3d 資料作成」「月末 報告」）
-- 🔄 繰り返しタスク（毎日/毎週/毎月）
-- 🏷 タグ機能（色分け表示・フィルタ・補完）
-- 📝 タスクメモ（1行メモ、クリックで表示切替）
-- 🎨 4テーマ（Green / Amber / Blue / White）
-- 📦 アーカイブ（完了タスクの論理削除・復元）
-- 🔔 リマインド通知（タスク名を最大3件表示）
-- ↩️ Undo（Ctrl+Z、最大20回）
-- 📌 最前面固定（ピン）
-- 🔲 タスクトレイ常駐 + グローバルホットキー（Ctrl+Alt+T）
-- 🧲 画面端マグネットスナップ
-- 🖥 マルチモニタ対応
-- 💾 自動バックアップ（3世代保持）
-- 📊 CSV エクスポート / インポート
+- 📅 日付の自然入力
+- 🔄 繰り返しタスク
+- 🏷 タグ機能
+- 📝 メモ機能
 
-## スクリーンショット
+---
+
+## 🧩 v1.1 新機能
+
+### View機能
+
+タスクを用途ごとに分離できる
+👉 `V1〜V9` で瞬時に切り替え
+---
+
+## ⚡ 使い方（最短）
+
+Ctrl + Alt + T → 起動
+↓
+金 レビュー #仕事 → Enter
+↓
+↓キー → Spaceで完了
+👉 マウス不要
+---
+
+## 📸 スクリーンショット
 <img width="402" height="420" alt="main" src="https://github.com/user-attachments/assets/bfbff8b7-7981-4005-96d2-ed77eae9cf9f" />
 
 | Green テーマ | Amber テーマ | ヘルプ画面 |
 |---|---|---|
 | ![Green](screenshots/main.png) | ![Amber](screenshots/amber.png) | ![Help](screenshots/help.png) |
 
-## 動作環境
+---
 
-- Windows 10 バージョン 1809 以降 / Windows 11
-- .NET Runtime のインストールは不要です（自己完結型ビルド）
+## 💡 こんな人向け
 
-## インストール
+- キーボード操作が好き
+- 軽いタスク管理ツールが欲しい
+- ターミナルっぽいUIが好き
 
-1. [Releases](../../releases) から `tsk_v110.zip` をダウンロード
-2. 任意のフォルダに展開
-3. `tsk.exe` をダブルクリックで起動
+---
 
-※ インストーラーはありません。展開して実行するだけで使えます。
+## 🛠 技術
 
-## ご支援について
+- C# / WPF (.NET 9)
+- SQLite
+- self-contained（.NET不要）
+
+---
+
+## ⭐ サポート
+
+気に入ったら **GitHubで⭐** もらえると嬉しいです 🙏
+
+---
+
+## 📩 作者
+
+Mitsukida
+
+## ✍️ 解説記事（Zenn）
+
+- UIの作り方
+- 設計でハマった話
+- WPFの罠まとめ
+
+👉 https://zenn.dev/mitsukida
+
+## 💰ご支援について
 
 tsk を気に入っていただけましたら、開発継続のためご支援いただけると大変励みになります。
 
@@ -79,7 +103,7 @@ Amazon ギフト券（Eメールタイプ）でのご支援を受け付けてお
 - 受取人名：mitsukida
 - 金額：お気持ちで結構です
 
-## 作者
+## 📩作者
 
 mitsukida (mmitsuki0806@gmail.com)
 
