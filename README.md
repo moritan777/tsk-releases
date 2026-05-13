@@ -6,9 +6,14 @@
 
 ---
 
-## 🎬 デモ
+## 🎬 登録デモ
 
 <img width="581" height="534" alt="demo" src="https://github.com/user-attachments/assets/66956c5d-09c1-4c50-99c8-431733b8ff32" />
+
+## 🎬 View機能
+
+<img width="581" height="534" alt="demo2" src="https://github.com/user-attachments/assets/aacb4ed1-07af-4132-abde-974225628897" />
+
 
 
 ---
